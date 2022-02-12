@@ -1,0 +1,39 @@
+$accent-color: #673ab7;
+$accent-deep-color: #4527a0;
+$light-color: #fff;
+$border-color: #ddd;
+$text-color: #333;
+$field-bd-color: aliceblue;
+$font-family: "Arial", sans-serif;
+
+.chill {
+  font-family: $font-family;
+  color: $text-color;
+  width: 600px;
+  background: white;
+  padding: 2rem;
+
+  input {
+    background: $field-bd-color;
+    width: 100%;
+    border: 1px solid $border-color;
+  }
+
+  input,
+  button {
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+  }
+
+  button[type="submit"] {
+    background-color: $accent-color;
+    color: $light-color;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+
+    &:hover {
+      background-color: $accent-deep-color;
+    }
+  }
+}

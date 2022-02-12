@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: antiquewhite;
+}
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
